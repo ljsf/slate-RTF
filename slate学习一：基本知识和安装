@@ -1,0 +1,9 @@
+slate本身不是一个富文本，他是一个构建富文本的框架
+
+1.安装：
+ npm install slate slate-react
+ npm install react react-dom immutable
+ 
+2.使用：
+ 1.创建一个json初始值 const initialValue = Value.fromJSON 整个是在document里面的，在里面放nodes节点
+ 2.
